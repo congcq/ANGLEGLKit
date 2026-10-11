@@ -3,6 +3,7 @@ name: Build Frameworks file
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
